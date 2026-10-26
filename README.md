@@ -17,6 +17,7 @@ A static page with no build step for content: any static host can serve the `sit
 | `src/eha.html` | Layout, styles and the script that renders the content; it has no `<html>`/`<head>` skeleton |
 | `tools/build.sh` | Wraps `src/eha.html` in a document skeleton with the social-media tags and writes `site/index.html` |
 | `tools/og_card.py` | Draws the 1200×630 share card and the favicon (needs Pillow and the Archivo and Atkinson Hyperlegible Next TTFs) |
+| `notes/` | Local only, git-ignored: research notes, `SOURCES.md` (where EHA material lives in e-mail, Drive and old sites), archives and spare assets |
 
 ## Updating the content
 
