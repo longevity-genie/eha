@@ -906,7 +906,8 @@ dialog#person::backdrop { background: rgb(4 10 30 / .6); }
         const who = (it.speakers || []).length ? el('div', { class: 'who' }, it.speakers.map(personChip)) : null;
         const names = (it.speakers || []).map(x => people[x] ? people[x].name : x).join(', ');
         const cal = sT && (it.title || names) ? el('a', { class: 'cal', target: '_blank', rel: 'noopener', href: gcal(`EHA 2026: ${it.title || names || s.title}`, sT, eT, `${names ? names + ' · ' : ''}${s.title || ''}. ${D.siteUrl}`) }, '+ Calendar') : el('span');
-        sec.append(el('div', { class: 'slot' + (isNow ? ' now' : '') }, timeCell, el('div', {}, titleEl, who, badges.length ? el('div', { class: 'badges' }, badges) : null), cal));
+        const subEl = it.subtitle ? el('p', { class: 'aff', style: 'color: var(--muted); font-size: .92rem; margin-top: .3rem' }, it.subtitle) : null;
+        sec.append(el('div', { class: 'slot' + (isNow ? ' now' : '') }, timeCell, el('div', {}, titleEl, subEl, who, badges.length ? el('div', { class: 'badges' }, badges) : null), cal));
       }
       panel.append(sec);
     }

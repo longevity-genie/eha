@@ -44,7 +44,7 @@ window.EHA = {
           track: 'policy', title: 'Policy and longevity',
           items: [
             { start: '09:00', end: '09:30', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
-            { start: '09:30', end: '10:15', speakers: ['alexander-tietz-latza'] },
+            { start: '09:30', end: '10:15', speakers: ['alexander-tietz-latza'], title: 'From a Right to Longevity to Measurable Policy: What Europe Needs Next', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
             { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
             { start: '10:45', end: '11:30', speakers: ['didier-coeurnelle'] },
             { start: '11:30', end: '12:00', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
