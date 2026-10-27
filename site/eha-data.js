@@ -8,7 +8,7 @@ window.EHA = {
   siteUrl: 'https://www.eha-heales.org',
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
-  updated: '2026-10-26',
+  updated: '2026-10-27',
   // Shown as a bar under the header. Delete this line (or set it to '') when the page becomes the official site.
   draftNotice: 'Draft of the new EHA 2026 site, prepared for the Heales organisers. Items marked "to be announced" or "to be confirmed" are not final.',
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
@@ -47,7 +47,7 @@ window.EHA = {
             { start: '09:30', end: '10:15', speakers: ['alexander-tietz-latza'] },
             { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
             { start: '10:45', end: '11:30', speakers: ['didier-coeurnelle'] },
-            { start: '11:30', end: '12:00' },
+            { start: '11:30', end: '12:00', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre'], note: 'With a third panellist to be announced.', badges: ['panel'] },
             { start: '12:00', end: '13:30', kind: 'break', title: 'Lunch break' }
           ]
         },
@@ -58,7 +58,7 @@ window.EHA = {
             { start: '14:15', end: '15:00', speakers: ['david-meyer'] },
             { start: '15:00', end: '15:30', kind: 'break', title: 'Coffee break' },
             { start: '15:30', end: '16:15', speakers: ['ninon-lecoquierre'], badges: ['online'] },
-            { start: '16:15', end: '17:00' }
+            { start: '16:15', end: '17:00', title: 'Predicting glucose before it happens', speakers: ['livia-zaharia'], badges: ['interactive'] }
           ]
         }
       ]
@@ -92,10 +92,7 @@ window.EHA = {
     }
   ],
 
-  unscheduled: [
-    { track: 'trials', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre'], note: 'With a third panellist to be announced.', badges: ['panel'] },
-    { track: 'interactive', title: 'Predicting glucose before it happens', speakers: ['livia-zaharia'], note: 'Play Sugar-Sugar and compete with an AI at predicting real glucose curves. After the main presentations.', badges: ['interactive'], href: '#hands-on' }
-  ],
+  unscheduled: [],
 
   people: [
     {
@@ -201,7 +198,7 @@ window.EHA = {
       ]
     },
     {
-      kicker: 'Interactive session · after the main presentations',
+      kicker: 'Interactive session · Thursday 16:15',
       title: 'Predicting glucose before it happens',
       by: 'Livia Zaharia, Anton Kulaga, Nikolay Usanov, Alexey Karmazin · GlucoseDAO, Heales, IBIMA Rostock',
       text: 'A glucose sensor worn in everyday life already says something about metabolic health. Most wearers read the curve by eye and guess what comes next, and how accurate those guesses are has hardly been measured. In this session you play Sugar-Sugar: look at a real glucose curve, draw where it goes next and compete with an AI. The game is part of an ethics-approved study at Rostock University Medical Center that is building a benchmark of how well people predict glucose.',
