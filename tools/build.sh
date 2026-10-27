@@ -15,6 +15,8 @@ out="$repo/site/index.html"
   printf '<meta property="og:image" content="https://www.eha-heales.org/img/og-card.png">\n'
   printf '<meta name="twitter:card" content="summary_large_image">\n'
   printf '<link rel="icon" href="img/brand/favicon.png">\n'
+  # Umami analytics, only on the hosted site (not in the claude.ai artifact built from the same source)
+  printf '<script defer src="https://umami.glucosedao.org/script.js" data-website-id="51d71eb2-e2ec-40a0-9b74-4c21a6291a18"></script>\n'
   printf '<style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}</style>\n'
   # title, metas, font links and the stylesheet (everything up to the first </style>) belong in <head>
   awk '{print} /<\/style>/{exit}' "$src" | grep -v 'claude:viewport-fit-sides'
