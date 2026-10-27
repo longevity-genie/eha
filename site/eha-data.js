@@ -169,6 +169,7 @@ window.EHA = {
     },
     {
       slug: 'benedikt-van-nieuwenhove', name: 'Benedikt Van Nieuwenhove', role: 'Founder and managing director', affiliation: 'European Centre for Clinical Research Training (ECCRT); Ghent University', short: 'ECCRT · Ghent University', track: 'trials',
+      photo: 'img/speakers/benedikt-van-nieuwenhove.jpg',
       bio: 'Benedikt Van Nieuwenhove is a pharmacist with a PhD from Ghent University and about thirty years in clinical research. He founded the European Centre for Clinical Research Training (ECCRT) in 2000, led the contract research organisation Harrison Clinical Research, and has chaired BeCRO, the Belgian association of contract research organisations. He teaches the management of clinical research at Ghent University\'s Faculty of Pharmaceutical Sciences.',
       links: [{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/benediktvannieuwenhove/' }]
     },
