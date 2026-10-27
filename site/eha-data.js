@@ -120,7 +120,7 @@ window.EHA = {
       links: [{ label: 'CECAD news: how ageing clocks tick', url: 'https://www.cecad.uni-koeln.de/outreach/news/article/how-aging-clocks-tick/' }, { label: 'Google Scholar', url: 'https://scholar.google.co.uk/citations?hl=en&user=UgMD1uMAAAAJ' }, { label: 'ORCID', url: 'https://orcid.org/0000-0002-5667-4720' }]
     },
     {
-      slug: 'ninon-lecoquierre', name: 'Ninon Lecoquierre', role: 'Scientific consultant', affiliation: 'Heales; Université libre de Bruxelles', short: 'Heales · ULB',
+      slug: 'ninon-lecoquierre', name: 'Ninon Lecoquierre', role: 'Scientific consultant', affiliation: 'Heales; Université libre de Bruxelles', short: 'Heales · Université libre de Bruxelles',
       photo: 'img/speakers/ninon-lecoquierre.jpg',
       bio: 'Ninon Lecoquierre is a biologist and scientific consultant at Heales, and a doctoral researcher in evolutionary biology and ecology at the Université libre de Bruxelles. Her research covers the genomics and taxonomy of invertebrates. She coordinates the scientific programme of EHA 2026.',
       links: [{ label: 'Heales', url: 'https://heales.org/who-we-are/' }, { label: 'LinkedIn', url: 'https://www.linkedin.com/in/ninon-lecoquierre-385a511a1/' }]
