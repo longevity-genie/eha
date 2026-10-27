@@ -1,0 +1,16 @@
+# Fast-forwards the server's checkout to GitHub's main; Caddy serves its site/ folder, so a pull is a deploy.
+# Started every minute by eha-pull.timer. Install: see "Deploying" in README.md.
+[Unit]
+Description=Pull the EHA website from GitHub
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=web
+WorkingDirectory=/home/web/eha
+# Never wait for a password or a host-key prompt: fail and try again next minute
+Environment=GIT_TERMINAL_PROMPT=0
+Environment="GIT_SSH_COMMAND=ssh -o BatchMode=yes -o ConnectTimeout=20"
+ExecStart=/usr/bin/git pull --ff-only --quiet
+TimeoutStartSec=120

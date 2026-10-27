@@ -1,0 +1,10 @@
+[Unit]
+Description=Pull the EHA website from GitHub every minute
+
+[Timer]
+OnCalendar=minutely
+AccuracySec=5s
+Unit=eha-pull.service
+
+[Install]
+WantedBy=timers.target

@@ -16,6 +16,7 @@ A static page with no build step for content: any static host can serve the `sit
 | `site/img/` | Heales icon, ILA logo, favicon, share card, speaker portraits (480×480), photos of past editions |
 | `src/eha.html` | Layout, styles and the script that renders the content; it has no `<html>`/`<head>` skeleton |
 | `tools/build.sh` | Wraps `src/eha.html` in a document skeleton with the social-media tags and writes `site/index.html` |
+| `tools/server/` | systemd units that pull `main` on the server every minute (see Deploying) |
 | `tools/og_card.py` | Draws the 1200×630 share card and the favicon (needs Pillow and the Archivo and Atkinson Hyperlegible Next TTFs) |
 | `notes/` | Local only, git-ignored: research notes, `SOURCES.md` (where EHA material lives in e-mail, Drive and old sites), archives and spare assets |
 
@@ -49,8 +50,18 @@ To change the layout or styles, edit `src/eha.html` and run `tools/build.sh`.
 
 ## Deploying
 
-The server keeps a checkout of this repository and Caddy serves its `site/` folder for `eha-heales.org` and
-`www.eha-heales.org`. To publish a change, push to `main`, then run `git pull` in the checkout on the server.
+The server keeps a checkout of this repository in `/home/web/eha` and Caddy serves its `site/` folder for
+`eha-heales.org` and `www.eha-heales.org`. To publish a change, push to `main`: within a minute the server's
+`eha-pull.timer` runs `git pull --ff-only` as `web`. Check it with `systemctl list-timers eha-pull.timer` and
+`journalctl -u eha-pull.service`; a pull that cannot fast-forward (local edits on the server) fails there and
+leaves the site as it was.
+
+The units are in `tools/server/`. To install them on a new server, as root:
+
+```bash
+cp tools/server/eha-pull.service tools/server/eha-pull.timer /etc/systemd/system/
+systemctl daemon-reload && systemctl enable --now eha-pull.timer
+```
 
 ## Images
 
