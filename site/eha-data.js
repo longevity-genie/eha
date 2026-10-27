@@ -47,7 +47,7 @@ window.EHA = {
             { start: '09:30', end: '10:15', speakers: ['alexander-tietz-latza'] },
             { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
             { start: '10:45', end: '11:30', speakers: ['didier-coeurnelle'] },
-            { start: '11:30', end: '12:00', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre'], note: 'With a third panellist to be announced.', badges: ['panel'] },
+            { start: '11:30', end: '12:00', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
             { start: '12:00', end: '13:30', kind: 'break', title: 'Lunch break' }
           ]
         },
@@ -166,6 +166,11 @@ window.EHA = {
       photo: 'img/speakers/marthe-de-boevre.jpg',
       bio: 'Marthe De Boevre studies how long-term exposure to mould toxins in food relates to health, at Ghent University\'s Centre of Excellence in Mycotoxicology and Public Health, with an ERC Starting Grant. She coordinates GLORIA Gezondheidsmonitor, a Belgian population study that will follow 20,000 adults over 45 for twenty years to support research on healthy ageing and prevention.',
       links: [{ label: 'Speaker profile', url: 'https://www.health-care.be/speaker/prof-dr-marthe-de-boevre/' }, { label: 'ORCID', url: 'https://orcid.org/0000-0002-6151-5126' }]
+    },
+    {
+      slug: 'benedikt-van-nieuwenhove', name: 'Benedikt Van Nieuwenhove', role: 'Founder and managing director', affiliation: 'European Centre for Clinical Research Training (ECCRT); Ghent University', short: 'ECCRT · Ghent University', track: 'trials',
+      bio: 'Benedikt Van Nieuwenhove is a pharmacist with a PhD from Ghent University and about thirty years in clinical research. He founded the European Centre for Clinical Research Training (ECCRT) in 2000, led the contract research organisation Harrison Clinical Research, and has chaired BeCRO, the Belgian association of contract research organisations. He teaches the management of clinical research at Ghent University\'s Faculty of Pharmaceutical Sciences.',
+      links: [{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/benediktvannieuwenhove/' }]
     },
     {
       slug: 'livia-zaharia', name: 'Livia Zaharia', role: 'Founder', affiliation: 'GlucoseDAO; Heales', short: 'GlucoseDAO · Heales', track: 'interactive',
