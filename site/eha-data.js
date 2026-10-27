@@ -168,9 +168,9 @@ window.EHA = {
       links: [{ label: 'Speaker profile', url: 'https://www.health-care.be/speaker/prof-dr-marthe-de-boevre/' }, { label: 'ORCID', url: 'https://orcid.org/0000-0002-6151-5126' }]
     },
     {
-      slug: 'benedikt-van-nieuwenhove', name: 'Benedikt Van Nieuwenhove', role: 'Founder and managing director', affiliation: 'European Centre for Clinical Research Training (ECCRT); Ghent University', short: 'ECCRT · Ghent University', track: 'trials',
+      slug: 'benedikt-van-nieuwenhove', name: 'Benedikt Van Nieuwenhove', role: 'Clinical research expert', affiliation: 'Evolife Health; Ghent University', short: 'Evolife Health · Ghent University', track: 'trials',
       photo: 'img/speakers/benedikt-van-nieuwenhove.jpg',
-      bio: 'Benedikt Van Nieuwenhove is a pharmacist with a PhD from Ghent University and about thirty years in clinical research. He founded the European Centre for Clinical Research Training (ECCRT) in 2000, led the contract research organisation Harrison Clinical Research, and has chaired BeCRO, the Belgian association of contract research organisations. He teaches the management of clinical research at Ghent University\'s Faculty of Pharmaceutical Sciences.',
+      bio: 'Benedikt Van Nieuwenhove is a pharmacist with a PhD from Ghent University and about thirty years in clinical research, now with Evolife Health. He founded the European Centre for Clinical Research Training (ECCRT) in 2000, led the contract research organisation Harrison Clinical Research, and has chaired BeCRO, the Belgian association of contract research organisations. He teaches the management of clinical research at Ghent University\'s Faculty of Pharmaceutical Sciences.',
       links: [{ label: 'LinkedIn', url: 'https://www.linkedin.com/in/benediktvannieuwenhove/' }]
     },
     {
