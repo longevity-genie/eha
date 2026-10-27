@@ -57,7 +57,7 @@ window.EHA = {
             { start: '13:30', end: '14:15', speakers: ['anton-kulaga'], title: 'AI agents in longevity research: genetics and beyond', badges: ['interactive'] },
             { start: '14:15', end: '15:00', speakers: ['david-meyer'], title: 'Aging by the clock, yet without a program' },
             { start: '15:00', end: '15:30', kind: 'break', title: 'Coffee break' },
-            { start: '15:30', end: '16:15', speakers: ['ninon-lecoquierre'], badges: ['online'] },
+            { start: '15:30', end: '16:15', speakers: ['ninon-lecoquierre'], title: 'Cave organisms: genomic insights into longevity and adaptation', badges: ['online'] },
             { start: '16:15', end: '17:00', title: 'Predicting glucose before it happens', speakers: ['livia-zaharia'], badges: ['interactive'] }
           ]
         }
