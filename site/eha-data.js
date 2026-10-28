@@ -71,7 +71,7 @@ window.EHA = {
           track: 'exosomes', title: 'Exosomes and plasma-based rejuvenation',
           items: [
             { start: '09:00', end: '09:30', speakers: ['sven-bulterijs'], title: 'Welcome to day 2', badges: ['welcome'] },
-            { start: '09:30', end: '10:15', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'] },
+            { start: '09:30', end: '10:15', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
             { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
             { start: '10:45', end: '11:30', speakers: ['jan-lotvall'] },
             { start: '11:30', end: '12:00' },
