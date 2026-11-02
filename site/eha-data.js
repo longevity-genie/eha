@@ -37,12 +37,13 @@ window.EHA = {
 
   days: [
     {
-      date: '2026-11-05', tab: 'Thu 5 Nov', opens: '09:30', closes: '17:00',
+      date: '2026-11-05', tab: 'Thu 5 Nov', opens: '09:00', closes: '17:00',
       intro: 'Day 1 · Policy and longevity in the morning; genetics, genomics and AI in the afternoon.',
       sessions: [
         {
           track: 'policy', title: 'Policy and longevity',
           items: [
+            { start: '09:00', end: '09:30', kind: 'break', title: 'Welcome coffee' },
             { start: '09:30', end: '10:00', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
             { start: '10:00', end: '10:30', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
             { start: '10:30', end: '11:00', kind: 'break', title: 'Coffee break' },
@@ -64,12 +65,13 @@ window.EHA = {
       ]
     },
     {
-      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:30', closes: '15:15',
+      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:00', closes: '15:15',
       intro: 'Day 2 · Exosomes and plasma-based rejuvenation in the morning; bioelectricity in the afternoon.',
       sessions: [
         {
           track: 'exosomes', title: 'Exosomes and plasma-based rejuvenation',
           items: [
+            { start: '09:00', end: '09:30', kind: 'break', title: 'Welcome coffee' },
             { start: '09:30', end: '10:00', speakers: ['sven-bulterijs'], title: 'Welcome to day 2', badges: ['welcome'] },
             { start: '10:00', end: '10:45', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
             { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
