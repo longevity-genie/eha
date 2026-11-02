@@ -42,10 +42,11 @@ window.EHA = {
           track: 'policy', title: 'Policy and longevity',
           items: [
             { start: '09:00', end: '09:30', kind: 'break', title: 'Welcome coffee' },
-            { start: '09:30', end: '10:00', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
-            { start: '10:00', end: '10:30', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
-            { start: '10:30', end: '11:00', kind: 'break', title: 'Coffee break' },
-            { start: '11:00', end: '11:45', speakers: ['didier-coeurnelle'], title: 'What the EU could do for longevity' },
+            { start: '09:30', end: '09:45', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
+            { start: '09:45', end: '10:15', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
+            { start: '10:15', end: '10:45', speakers: ['roland-pochet'], title: 'Health Data Altruism: A New Frontier for Healthy Ageing and Longevity' },
+            { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
+            { start: '11:15', end: '11:45', speakers: ['didier-coeurnelle'], title: 'What the EU could do for longevity' },
             { start: '11:45', end: '12:30', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
             { start: '12:30', end: '13:30', kind: 'break', title: 'Lunch break' }
           ]
@@ -104,6 +105,12 @@ window.EHA = {
       photo: 'img/speakers/alexander-tietz-latza.jpg',
       bio: 'Alexander Tietz-Latza is a lawyer and political scientist who works to bring the biology of ageing into health and prevention policy. He leads PRIMA, a non-profit longevity policy institute in Cologne, after years in the German Bundestag and at the European Parliament, where he worked on the Active and Healthy Ageing initiative. He is treasurer of Heales and a board member of the International Longevity Alliance.',
       links: [{ label: 'PRIMA', url: 'https://prima.ngo/' }, { label: 'LinkedIn', url: 'https://de.linkedin.com/in/alexandertietz' }, { label: 'ILA profile', url: 'https://longevityalliance.org/employee/alexander-tietz-latza-germany-aachen-cologne/' }]
+    },
+    {
+      slug: 'roland-pochet', name: 'Roland Pochet', role: 'CEO', affiliation: 'Belgian Brain Council; Université libre de Bruxelles', short: 'Belgian Brain Council',
+      photo: 'img/speakers/roland-pochet.jpg',
+      bio: 'Roland Pochet is CEO of the Belgian Brain Council and a visiting professor at the Université libre de Bruxelles.',
+      links: [{ label: 'Belgian Brain Council', url: 'https://www.braincouncil.eu/about-us/national-brain-councils/belgian-brain-council/' }]
     },
     {
       slug: 'anton-kulaga', name: 'Anton Kulaga', role: 'Bioinformatician', affiliation: 'IBIMA, Rostock University Medical Center; Institute of Biochemistry of the Romanian Academy', short: 'IBIMA Rostock · Romanian Academy',
