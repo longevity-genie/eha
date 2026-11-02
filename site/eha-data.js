@@ -8,7 +8,7 @@ window.EHA = {
   siteUrl: 'https://www.eha-heales.org',
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
-  updated: '2026-10-27',
+  updated: '2026-11-02',
   // Shown as a bar under the header. Delete this line (or set it to '') when the page becomes the official site.
   draftNotice: 'Draft of the new EHA 2026 site, prepared for the Heales organisers. Items marked "to be announced" or "to be confirmed" are not final.',
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
@@ -37,18 +37,18 @@ window.EHA = {
 
   days: [
     {
-      date: '2026-11-05', tab: 'Thu 5 Nov', opens: '09:00', closes: '17:00',
+      date: '2026-11-05', tab: 'Thu 5 Nov', opens: '09:30', closes: '17:00',
       intro: 'Day 1 · Policy and longevity in the morning; genetics, genomics and AI in the afternoon.',
       sessions: [
         {
           track: 'policy', title: 'Policy and longevity',
           items: [
-            { start: '09:00', end: '09:30', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
-            { start: '09:30', end: '10:15', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
-            { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
-            { start: '10:45', end: '11:30', speakers: ['didier-coeurnelle'] },
-            { start: '11:30', end: '12:00', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
-            { start: '12:00', end: '13:30', kind: 'break', title: 'Lunch break' }
+            { start: '09:30', end: '10:00', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
+            { start: '10:00', end: '10:30', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
+            { start: '10:30', end: '11:00', kind: 'break', title: 'Coffee break' },
+            { start: '11:00', end: '11:45', speakers: ['didier-coeurnelle'], title: 'What the EU could do for longevity' },
+            { start: '11:45', end: '12:30', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
+            { start: '12:30', end: '13:30', kind: 'break', title: 'Lunch break' }
           ]
         },
         {
@@ -64,18 +64,18 @@ window.EHA = {
       ]
     },
     {
-      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:00', closes: '17:00',
+      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:30', closes: '17:00',
       intro: 'Day 2 · Exosomes and plasma-based rejuvenation in the morning; bioelectricity in the afternoon.',
       sessions: [
         {
           track: 'exosomes', title: 'Exosomes and plasma-based rejuvenation',
           items: [
-            { start: '09:00', end: '09:30', speakers: ['sven-bulterijs'], title: 'Welcome to day 2', badges: ['welcome'] },
-            { start: '09:30', end: '10:15', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
-            { start: '10:15', end: '10:45', kind: 'break', title: 'Coffee break' },
-            { start: '10:45', end: '11:30', speakers: ['jan-lotvall'] },
-            { start: '11:30', end: '12:00' },
-            { start: '12:00', end: '13:40', kind: 'break', title: 'Lunch break' }
+            { start: '09:30', end: '10:00', speakers: ['sven-bulterijs'], title: 'Welcome to day 2', badges: ['welcome'] },
+            { start: '10:00', end: '10:45', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
+            { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
+            { start: '11:15', end: '12:00', speakers: ['jan-lotvall'] },
+            { start: '12:00', end: '12:30' },
+            { start: '12:30', end: '13:40', kind: 'break', title: 'Lunch break' }
           ]
         },
         {
