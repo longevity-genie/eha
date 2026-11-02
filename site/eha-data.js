@@ -74,7 +74,7 @@ window.EHA = {
             { start: '10:00', end: '10:45', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
             { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
             { start: '11:15', end: '12:00', speakers: ['jan-lotvall'] },
-            { start: '12:00', end: '12:30', title: 'Panel: looking back on EHA 2026', speakers: ['didier-coeurnelle', 'alexander-tietz-latza'], badges: ['panel'] },
+            { start: '12:00', end: '12:30', title: 'Panel: discussing the themes of the conference', speakers: ['didier-coeurnelle', 'alexander-tietz-latza'], badges: ['panel'] },
             { start: '12:30', end: '13:40', kind: 'break', title: 'Lunch break' }
           ]
         },
