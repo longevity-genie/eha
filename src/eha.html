@@ -803,7 +803,7 @@ dialog#person::backdrop { background: rgb(4 10 30 / .6); }
     $('#cal-all').href = 'https://calendar.google.com/calendar/render?action=TEMPLATE'
       + '&text=' + encodeURIComponent(`EHA 2026 – ${D.title}`)
       + '&dates=' + first + '/' + after.toISOString().slice(0, 10).replace(/-/g, '')
-      + '&details=' + encodeURIComponent(`8th edition, ${D.days[0].opens}–${D.days[0].closes} Brussels time each day. ${D.siteUrl}`)
+      + '&details=' + encodeURIComponent(`8th edition. ${D.days.map(d => `${d.tab}: ${d.opens}–${d.closes}`).join(', ')} (Brussels time). ${D.siteUrl}`)
       + '&location=' + encodeURIComponent(D.venue.oneLine);
   }
 

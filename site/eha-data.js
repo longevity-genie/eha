@@ -64,7 +64,7 @@ window.EHA = {
       ]
     },
     {
-      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:30', closes: '17:00',
+      date: '2026-11-06', tab: 'Fri 6 Nov', opens: '09:30', closes: '14:55',
       intro: 'Day 2 · Exosomes and plasma-based rejuvenation in the morning; bioelectricity in the afternoon.',
       sessions: [
         {
@@ -82,10 +82,7 @@ window.EHA = {
           track: 'bioelectric', title: 'Bioelectricity and regeneration',
           items: [
             { start: '13:40', end: '14:25', speakers: ['michael-levin'], title: 'Collective intelligence of cells: a roadmap to longevity', badges: ['keynote', 'online'] },
-            { start: '14:25', end: '14:55', speakers: ['leo-pio-lopez'], title: 'Misalignment in aging: from loss of goal-directedness to atavistic dissociation' },
-            { start: '15:00', end: '15:30', kind: 'break', title: 'Coffee break' },
-            { start: '15:30', end: '16:15' },
-            { start: '16:15', end: '17:00' }
+            { start: '14:25', end: '14:55', speakers: ['leo-pio-lopez'], title: 'Misalignment in aging: from loss of goal-directedness to atavistic dissociation' }
           ]
         }
       ]
