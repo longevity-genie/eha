@@ -9,8 +9,6 @@ window.EHA = {
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
   updated: '2026-11-02',
-  // Shown as a bar under the header. Delete this line (or set it to '') when the page becomes the official site.
-  draftNotice: 'Draft of the new EHA 2026 site, prepared for the Heales organisers. Items marked "to be announced" or "to be confirmed" are not final.',
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
   registerText: 'Attendance is free, in Brussels or online. The short form asks whether you will come in person or follow online, so that we can plan the room and send you the practical details.',
 

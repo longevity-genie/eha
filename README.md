@@ -32,7 +32,8 @@ generated from it, so a date or a name changes everywhere at once. No rebuild is
   give it `start` and `end`.
 - **Badges:** `online`, `interactive`, `panel`, `keynote`, `welcome`.
 - Change `updated` at the top whenever you edit, so visitors can see how current the page is.
-- `draftNotice` shows a yellow "draft" bar under the header. Delete that line once the organisers approve the page.
+- A line `draftNotice: '…',` near the top of `site/eha-data.js` shows its text in a yellow bar under the header; there
+  is none now.
 
 Times are Brussels time. On 5–6 November 2026 Brussels is on CET (UTC+01:00), the `utcOffset` value.
 
