@@ -43,8 +43,8 @@ window.EHA = {
           items: [
             { start: '09:00', end: '09:30', kind: 'break', title: 'Welcome coffee' },
             { start: '09:30', end: '09:45', speakers: ['didier-coeurnelle'], title: 'Welcome and opening of the 8th Eurosymposium', badges: ['welcome'] },
-            { start: '09:45', end: '10:15', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
-            { start: '10:15', end: '10:45', speakers: ['roland-pochet'], title: 'Health Data Altruism: A New Frontier for Healthy Ageing and Longevity' },
+            { start: '09:45', end: '10:15', speakers: ['roland-pochet'], title: 'Health Data Altruism: A New Frontier for Healthy Ageing and Longevity' },
+            { start: '10:15', end: '10:45', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
             { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
             { start: '11:15', end: '11:45', speakers: ['didier-coeurnelle'], title: 'What the EU could do for longevity' },
             { start: '11:45', end: '12:30', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
