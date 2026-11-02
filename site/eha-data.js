@@ -75,7 +75,7 @@ window.EHA = {
             { start: '09:30', end: '10:00', speakers: ['sven-bulterijs'], title: 'Welcome to day 2', badges: ['welcome'] },
             { start: '10:00', end: '10:45', speakers: ['nicolas-chernavsky', 'nina-torres-zanvettor'], title: 'In search of the truth: was rejuvenation invented?' },
             { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
-            { start: '11:15', end: '12:00', speakers: ['jan-lotvall'] },
+            { start: '11:15', end: '12:00', speakers: ['jan-lotvall'], title: 'Exosomes to treat inflammageing – and as future medicines', badges: ['online'] },
             { start: '12:00', end: '12:30', title: 'Panel: key questions from EHA 2026 so far', speakers: ['didier-coeurnelle', 'alexander-tietz-latza'], badges: ['panel'] },
             { start: '12:30', end: '13:40', kind: 'break', title: 'Lunch break' }
           ]
