@@ -8,7 +8,7 @@ window.EHA = {
   siteUrl: 'https://www.eha-heales.org',
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
-  updated: '2026-11-02',
+  updated: '2026-11-04',
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
   registerText: 'Attendance is free, in Brussels or online. The short form asks whether you will come in person or follow online, so that we can plan the room and send you the practical details.',
 
@@ -47,7 +47,7 @@ window.EHA = {
             { start: '10:15', end: '10:45', speakers: ['alexander-tietz-latza'], title: 'Healthy Longevity for All: From the Right to Health to European Policy', subtitle: 'Healthy life years as an EU target, ageing biology in FP10, and national building blocks from Berlin to Vilnius' },
             { start: '10:45', end: '11:15', kind: 'break', title: 'Coffee break' },
             { start: '11:15', end: '11:45', speakers: ['didier-coeurnelle'], title: 'What the EU could do for longevity' },
-            { start: '11:45', end: '12:30', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'marthe-de-boevre', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
+            { start: '11:45', end: '12:30', title: 'Panel: clinical trials and longevity in Belgium and Europe', speakers: ['sven-bulterijs', 'shivani-kumar', 'benedikt-van-nieuwenhove'], badges: ['panel'] },
             { start: '12:30', end: '13:30', kind: 'break', title: 'Lunch break' }
           ]
         },
@@ -167,10 +167,15 @@ window.EHA = {
       links: [{ label: 'Heales', url: 'https://heales.org/who-we-are/' }, { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=ebFqaH4AAAAJ&hl=en' }]
     },
     {
-      slug: 'marthe-de-boevre', name: 'Marthe De Boevre', role: 'Professor of clinical mycotoxicology', affiliation: 'Ghent University', short: 'Ghent University', track: 'trials',
+      slug: 'marthe-de-boevre', name: 'Marthe De Boevre', role: 'Professor of clinical mycotoxicology', affiliation: 'Ghent University', short: 'Ghent University', track: 'trials', onProgramme: false,
       photo: 'img/speakers/marthe-de-boevre.jpg',
       bio: 'Marthe De Boevre studies how long-term exposure to mould toxins in food relates to health, at Ghent University\'s Centre of Excellence in Mycotoxicology and Public Health, with an ERC Starting Grant. She coordinates GLORIA Gezondheidsmonitor, a Belgian population study that will follow 20,000 adults over 45 for twenty years to support research on healthy ageing and prevention.',
       links: [{ label: 'Speaker profile', url: 'https://www.health-care.be/speaker/prof-dr-marthe-de-boevre/' }, { label: 'ORCID', url: 'https://orcid.org/0000-0002-6151-5126' }]
+    },
+    {
+      slug: 'shivani-kumar', name: 'Shivani Kumar', role: 'Scientific consultant', affiliation: 'EHA 2026', short: 'Scientific consultant, EHA 2026', track: 'trials',
+      bio: 'Shivani Kumar is a scientific consultant for the 8th Eurosymposium on Healthy Ageing and Longevity.',
+      links: []
     },
     {
       slug: 'benedikt-van-nieuwenhove', name: 'Benedikt Van Nieuwenhove', role: 'Clinical research expert', affiliation: 'Evolife Health; Ghent University', short: 'Evolife Health · Ghent University', track: 'trials',
