@@ -8,7 +8,7 @@ window.EHA = {
   siteUrl: 'https://www.eha-heales.org',
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
-  updated: '2026-11-04',
+  updated: '2026-11-13',
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
   registerText: 'Attendance is free, in Brussels or online. The short form asks whether you will come in person or follow online, so that we can plan the room and send you the practical details.',
 
@@ -285,6 +285,7 @@ window.EHA = {
   ],
   declarationsIntro: 'Since 2016, each Eurosymposium has closed by adopting a declaration. Anyone can sign by writing to info@heales.org with their name, profession and country.',
   declarations: [
+    { year: '2026', title: 'Brussels Declaration on Longevity for All', text: 'Calls on the EU institutions and Member States to make "longevity for all" a major European policy objective and to treat biological ageing itself as a priority for scientific research.', url: 'brussels-declaration-2026.html' },
     { year: '2024', title: 'Declaration on Sharing Health Data and Using AI for Healthy Longevity', text: 'Calls for full data portability and a right to share health data for science, broad consent, FAIR data, altruistic databases and faster implementation of the European Health Data Space.', url: 'https://heales.org/wp-content/uploads/2024/11/Declaration-of-Sharing-Health-Data-and-using-AI-for-Healthy-Longevity.pdf' },
     { year: '2022', title: 'Second Brussels Declaration for Radical Healthspan Extension', text: '"After Covid times, rejuvenation times": renews the call to defeat age-related diseases within 25 years, adding AI, big data and open publication of all publicly funded results.', url: 'https://heales.org/wp-content/uploads/2022/12/Declaration-English.pdf' },
     { year: '2020', title: 'Declaration on Biomarkers and Clinical Tests', text: 'Asks for an accepted measure of biological age built from biomarkers and open databases, and for ethics committees to decide on longevity trials within a month.', url: 'https://drive.google.com/file/d/1JpCOYH3pM5Seyy_3g3FPNawqphsDDp1-/view' },
