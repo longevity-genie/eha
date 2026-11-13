@@ -253,6 +253,10 @@ img { max-width: 100%; display: block; }
   .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
+/* The clock is no longer shown on Overview; its SVG stays in the page because the tab band copies it. */
+.hero .star-clock svg { display: none; }
+.hero .star-clock { grid-template-columns: 1fr; align-self: center; }
+
 /* ---------- sections ---------- */
 section.block { padding-block: clamp(3rem, 7vw, 5.5rem); }
 section.block + section.block { border-top: 1px solid var(--line); }
