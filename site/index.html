@@ -161,6 +161,11 @@ img { max-width: 100%; display: block; }
   padding: .7rem .65rem; border-radius: 6px 6px 0 0; white-space: nowrap; box-shadow: inset 0 -3px 0 transparent;
 }
 .tabbar [role="tab"]:hover { background: color-mix(in srgb, var(--eu) 8%, transparent); }
+.tabbar .tab-link {
+  font: 600 .93rem/1 var(--font-body); color: var(--ink); text-decoration: none;
+  padding: .7rem .65rem; border-radius: 6px 6px 0 0; white-space: nowrap;
+}
+.tabbar .tab-link:hover { background: color-mix(in srgb, var(--eu) 8%, transparent); }
 .tabbar [role="tab"][aria-selected="true"] { color: var(--eu); box-shadow: inset 0 -3px 0 var(--eu); }
 .tools { display: flex; gap: .4rem; align-items: center; }
 .icon-btn {
@@ -488,6 +493,7 @@ dialog#person::backdrop { background: rgb(4 10 30 / .6); }
       <button type="button" role="tab" id="tab-overview" data-tab="overview" aria-controls="p-overview" aria-selected="true" tabindex="0">Overview</button>
       <button type="button" role="tab" id="tab-programme" data-tab="programme" aria-controls="p-programme" aria-selected="false" tabindex="-1">Programme</button>
       <button type="button" role="tab" id="tab-speakers" data-tab="speakers" aria-controls="p-speakers" aria-selected="false" tabindex="-1">Speakers</button>
+      <a class="tab-link" href="brussels-declaration-2026.html">Declaration</a>
       <button type="button" role="tab" id="tab-hands-on" data-tab="hands-on" aria-controls="p-hands-on" aria-selected="false" tabindex="-1">Hands-on</button>
       <button type="button" role="tab" id="tab-venue" data-tab="venue" aria-controls="p-venue" aria-selected="false" tabindex="-1">Venue &amp; FAQ</button>
       <button type="button" role="tab" id="tab-history" data-tab="history" aria-controls="p-history" aria-selected="false" tabindex="-1">Past editions</button>
