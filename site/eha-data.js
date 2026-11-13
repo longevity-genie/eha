@@ -9,6 +9,7 @@ window.EHA = {
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
   updated: '2026-11-13',
+  announcement: { text: 'New: the Brussels Declaration on Longevity for All (November 2026), adopted at EHA 2026.', linkLabel: 'Read the declaration', url: 'brussels-declaration-2026.html' },
   registerUrl: 'https://docs.google.com/forms/d/e/1FAIpQLScNjZdBEXSiQ-3rj75DXlgGcfhpw-0M1Z4-ddtHG9mYr6pqOw/viewform',
   registerText: 'Attendance is free, in Brussels or online. The short form asks whether you will come in person or follow online, so that we can plan the room and send you the practical details.',
 
