@@ -820,7 +820,9 @@ dialog#person::backdrop { background: rgb(4 10 30 / .6); }
     + '&location=' + encodeURIComponent(D.venue.oneLine);
 
   if (D.draftNotice) { $('#draft-bar').textContent = D.draftNotice; $('#draft-bar').hidden = false; }
-  if (D.announcement) { const a = D.announcement; $('#announce-bar').append(a.text, ' ', el('a', { href: a.url }, a.linkLabel + ' →')); $('#announce-bar').hidden = false; }
+  const notices = [].concat(D.announcements || [], D.announcement || []);
+  notices.forEach(a => $('#announce-bar').append(el('div', {}, a.text, ' ', el('a', a.external ? { href: a.url, target: '_blank', rel: 'noopener' } : { href: a.url }, a.linkLabel + ' →'))));
+  if (notices.length) $('#announce-bar').hidden = false;
 
   /* ---------- registration ---------- */
   document.querySelectorAll('[data-register-out]').forEach(a => a.href = D.registerUrl);
