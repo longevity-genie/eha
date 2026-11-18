@@ -8,7 +8,7 @@ window.EHA = {
   siteUrl: 'https://www.eha-heales.org',
   timeZone: 'Europe/Brussels',
   utcOffset: '+01:00',
-  updated: '2026-11-17',
+  updated: '2026-11-18',
   announcements: [
     { text: 'Now on YouTube: the first video of the EHA 2026 presentations.', linkLabel: 'Watch it', url: 'https://www.youtube.com/watch?v=blRyINGqF4s', external: true },
     { text: 'New: the Brussels Declaration on Longevity for All (November 2026), adopted at EHA 2026.', linkLabel: 'Read the declaration', url: 'brussels-declaration-2026.html' }

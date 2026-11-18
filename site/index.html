@@ -244,6 +244,7 @@ img { max-width: 100%; display: block; }
 .star-clock { margin: 0; display: grid; justify-items: center; gap: .8rem; }
 .star-clock svg { width: min(100%, 26rem); height: auto; overflow: visible; }
 .star-clock figcaption { text-align: center; font-family: var(--font-mono); font-size: .9rem; color: var(--hero-muted); letter-spacing: .04em; }
+.star-clock figcaption a { color: #fff; text-decoration: underline; text-underline-offset: .15em; }
 .star-clock figcaption strong { display: block; font-family: var(--font-display); font-size: 2.2rem; font-stretch: 115%; color: #fff; letter-spacing: 0; }
 .hand { transform-box: view-box; transform-origin: 200px 200px; }
 .hand-min { animation: rewind 40s linear infinite; }
@@ -871,7 +872,7 @@ dialog#person::backdrop { background: rgb(4 10 30 / .6); }
     } else if (now <= endAll) {
       cap.innerHTML = `<strong>Live now</strong>in Brussels and online`;
     } else {
-      cap.innerHTML = `<strong>Thank you</strong>recordings will follow on YouTube`;
+      cap.innerHTML = `<strong>Thank you</strong>recordings will follow on <a href="https://www.youtube.com/watch?v=blRyINGqF4s&list=PLLcd-ynnHpfM" target="_blank" rel="noopener">YouTube</a>`;
     }
     $('#band-count').textContent = cap.querySelector('strong').textContent + (now < startAll && /days/.test(cap.textContent) ? ' to go' : '');
   }
